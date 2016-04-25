@@ -33,5 +33,24 @@ body {
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
 	background-repeat: no-repeat;
 }
+.hadouken {
+	background-image: url('https://raw.githubusercontent.com/triley22/jquerystreetfighter/master/images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none;
+	float: left;
+	position: absolute;
+	top: 167px;
+	left: 520px;
+	z-index: 10;
+}
+
+
+
+
+
+
+
+
 
 
