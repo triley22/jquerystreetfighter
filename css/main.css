@@ -14,11 +14,11 @@ body {
 	width: 659px;
 	height: 494px;
 }
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
 }
 .ryu-ready {
@@ -32,8 +32,8 @@ body {
 }
 .ryu-cool {
   background-image: url('https://raw.githubusercontent.com/triley22/jquerystreetfighter/master/images/ryu-cool.gif');
-}
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+ }
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	background-repeat: no-repeat;
 }
 .hadouken {
@@ -48,13 +48,14 @@ body {
 	z-index: 10;
 }
 .sf-logo {
-	background-image: url('http://i.imgur.com/bx2QtT6.gif');
-	position: absolute;
-	left: 650px;
-	height: 425px;
-	width: 600px;
-	padding-top: 75px;
+	background-image: url('https://raw.githubusercontent.com/triley22/jquerystreetfighter/gh-pages/images/sf-logo.gif');
+	width: 340px;
+	height: 180px;
+    margin-top: -300px;
+	padding-right: 40px;
+	position: relative;
 }
+
 
 
 
