@@ -14,11 +14,11 @@ $(document).ready(function(){
         $('.ryu-cool').hide();
         $('.ryu-throwing').show();
         $('.hadouken').finish().show().animate(
-            {'left': '1020px'},
+            {'left': '1400px'},
             500,
             function(){
                 $(this).hide();
-                $(this).css('left', '520px');
+                $(this).css('left', '500px');
             });
     })
     .mouseup(function(){
